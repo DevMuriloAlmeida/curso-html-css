@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1a1e41;
+        }
+
+        header{
+            background-color: #0F20DB;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        #principal{
+            text-align: center;
+            color: #DBD90F;
+        }
+
+        nav{
+            background-color: #0F8CDB;
+            box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a{
+            color: white;
+            margin-right: 40px;
+            text-decoration: none;
+        }
+
+        nav > a:hover{
+            color: #DBD90F;
+        }
+
+        main{
+            background-color: white;
+            padding-left: 7px;
+            padding-bottom: 5px;
+            
+        }
+
+        #tituloprogramacao{
+            background-color: #1a1e41;
+            color: #DBB00F;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5em;
+            height: 35px;
+            margin-top: 45px;
+            margin-bottom: -15px;
+            margin-left: -10px;
+            padding-left: 7px;
+        }
+
+        .subtitulo{
+            color: #0F8CDB;
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        #titulohardware{
+            background-color: #1a1e41;
+            color: #DBB00F;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5em;
+            height: 35px;
+            margin-bottom: -15px;
+            margin-left: -10px;
+            padding-top: 100px;
+            padding-left: 7px;
+        }
+
+        #titulopc{
+            color: #0F20DB;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 800;
+            font-size: 1.5em;
+            padding-top: 30px;
+        }
+
+        aside{
+            font-weight: bolder;
+            text-align: right;
+            margin-top: 35px;
+            margin-bottom: -7px;
+        }
+
+        footer{
+            color: #DBB00F;
+        }
+
+        #redondo{
+            background-color: white;
+            height: 60px;
+            width: 60px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Navege pelo site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="programacao">
+            <article id="artigoprogramacao">
+                <h1 id="tituloprogramacao">Linguagens de Programação</h1>
+                <h2 class="subtitulo">Java</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat aliquam non temporibus facere beatae reprehenderit quam assumenda consectetur repellendus tempore natus facilis distinctio quo est dicta, quae amet quisquam fuga?</p>
+
+                <h2 class="subtitulo">Phyton</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, similique dolorum laudantium, quod quia totam animi illo reiciendis aut quo doloremque fugit hic odio minima eum. Vitae ipsam laudantium laboriosam!</p>
+            </article>
+        </section>
+
+        <section id="hardware">
+            <article>
+                <h1 id="titulohardware">Componentes e dica de PC</h1>
+                <h2 class="subtitulo">Processador</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe corporis distinctio, totam ex expedita quas rerum nostrum, maxime, culpa ab id iusto. Accusantium cum deleniti quidem reiciendis consequatur cumque hic.</p>
+                
+                <h2 class="subtitulo">Placa de video</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt cum voluptate nulla reiciendis, ea nemo voluptatum atque dicta adipisci velit ut architecto unde veritatis porro dolorum aliquid inventore? Officia, rem.</p>
+            </article>
+
+            <article>
+                <h1 id="titulopc">Como montar um PC barato</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia esse natus animi et aperiam, veritatis earum asperiores omnis expedita soluta dolorem perspiciatis voluptates, dolorum autem impedit, at aliquid quia debitis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi aliquid temporibus expedita dolorem harum pariatur, iste explicabo aperiam est voluptate! Accusamus hic quo illo aspernatur dicta maxime, consequuntur minima. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, obcaecati sit. Consectetur totam numquam id unde a ipsa explicabo voluptatem ea quis, iure suscipit odio, praesentium deserunt, inventore rem aut.</p>
+                <aside>
+                    <p>Artigo escrito por MuhPro</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por MuriloPouGames</p>
+    </footer>
+    <h1 id="redondo"></h1>
+</body>
+</html>

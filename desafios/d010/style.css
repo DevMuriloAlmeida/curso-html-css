@@ -1,0 +1,129 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    padding-top: 25px;
+}
+
+header{
+    background-image: linear-gradient(#1479B7, #296285, #2A4252);
+    height: 250px;
+    margin-top: -35px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    padding-top: 90px;
+    text-align: left;
+}
+
+nav > a{
+    color: white;
+    width: auto;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: #1479b767;
+}
+
+main{
+    background-color: #1479B7;
+    margin-top: -27px;
+    margin-bottom: -55px;
+    padding-bottom: 7px;
+}
+
+section{
+    background-color: white;
+    width: 950px;
+    margin: auto;
+    padding-bottom: 1px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.fontetitulos{
+    font-family: 'idroid', serif;
+}
+
+#titulo{
+    color: #1479B7;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.subtitulos{
+    color: #1479B7;
+    background-image: linear-gradient(90deg, #2a4252, #2962852c, #1479b700);
+    margin-left: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+#video{
+    text-align: center;
+    background-color: #2A4252;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#extra{
+    background-color: #1479b78e;
+    width: 900px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#extra > h3{
+    background-color: #296285;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    color: white;
+    background-color: #2A4252;
+    margin-top: 55px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#imgIrina{
+    display: block;
+    text-align: center;
+}
+
+#imgAndroid{
+    display: block;
+    text-align: center;
+}

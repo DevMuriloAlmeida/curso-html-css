@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+body{
+    background-image: linear-gradient(#3363BD, #415A8A, #1260F0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h1{
+    background-color: rgb(0, 195, 255);
+}
+
+h2{
+    color: gold;
+}
+
+h1#principal{
+    background-color: #2C2F33;
+    color: #1260F0;
+    text-align: center;
+}
+
+h1#titulo1{
+    background-color: #061c46;
+    color: #2C2F33;
+}
+
+h1#titulo2{
+    color: #2C2F33;
+    background-color: #4784f7;
+}
+
+.basico{
+    color: #1260F0;
+    background-color: #3a445785;
+}
+
+.intermediario{
+    color: #5373ad;
+    background-color: #3a445785;
+}
+
+.avancado{
+    color: #3363BD;
+    background-color: #3a445785;
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.473);
+}
